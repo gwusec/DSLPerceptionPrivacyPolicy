@@ -8,7 +8,7 @@ This repository hosts the privacy policy for the Google Play App Data Safety Res
 The Chrome Extension is used in the research project "Understanding User Perceptions of App Privacy and Data Safety Labels on the Google Play Store". It helps participants explore their Google Play Store app library and select apps for the research survey.
 
 ### Privacy Policy
-The privacy policy is hosted at: https://gwusec.seas.gwu.edu/DSLPreceptionPrivacyPolicy
+The privacy policy is hosted at: https://gwusec.seas.gwu.edu/DSLPerceptionPrivacyPolicy
 
 ### Repository Structure
 index.html - Main privacy policy webpage
