@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Google Play App Data Safety Research Extension</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Header matching GWUSEC style */
+        .header {
+            border-bottom: 2px solid #033C5A; /* GWU blue */
+            padding-bottom: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .header h1 {
+            color: #033C5A; /* GWU blue */
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.1rem;
+        }
+
+        /* Navigation bar */
+        .nav {
+            background: #f5f5f5;
+            padding: 1rem;
+            margin: 1.5rem 0;
+            border-radius: 5px;
+        }
+
+        .nav ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav a {
+            color: #033C5A;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Typography */
+        h2 {
+            color: #033C5A;
+            margin: 2.5rem 0 1rem 0;
+            font-size: 1.6rem;
+            border-bottom: 1px solid #e5e5e5;
+            padding-bottom: 0.5rem;
+        }
+
+        h3 {
+            color: #444;
+            margin: 1.5rem 0 0.8rem 0;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: #333;
+        }
+
+        ul, ol {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Notice box - GWU style */
+        .notice {
+            background: #f8f9fa;
+            border-left: 4px solid #033C5A;
+            padding: 1rem 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .notice strong {
+            color: #033C5A;
+        }
+
+        /* Important box */
+        .important {
+            background: #fff9e6;
+            border: 1px solid #ffc107;
+            border-radius: 5px;
+            padding: 1rem 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        /* Contact section */
+        .contact-box {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 5px;
+            margin-top: 2rem;
+        }
+
+        /* Links */
+        a {
+            color: #0066cc;
+            text-decoration: underline;
+        }
+
+        a:hover {
+            color: #033C5A;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid #e5e5e5;
+            text-align: center;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        /* GWU branding bar */
+        .gwu-bar {
+            background: #033C5A;
+            color: white;
+            padding: 0.5rem 0;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        .gwu-bar a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .gwu-bar a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+
+            .nav ul {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="gwu-bar">
+        <a href="https://gwusec.seas.gwu.edu">GWUSEC Lab</a> | 
+        <a href="https://www.seas.gwu.edu">GW School of Engineering</a> | 
+        <a href="https://www.gwu.edu">The George Washington University</a>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <h1>Privacy Policy</h1>
+            <p class="subtitle">Google Play App Data Safety Research Chrome Extension</p>
+        </div>
+
+        <nav class="nav">
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#data-collection">Data Collection</a></li>
+                <li><a href="#rights">Your Rights</a></li>
+                <li><a href="#security">Security</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="notice">
+            <strong>IRB-Approved Research Study</strong><br>
+            This extension is part of an IRB-approved research study (GWU IRB #NCR246154) conducted by the 
+            Security and Privacy Research Group (GWUSEC) at The George Washington University.<br>
+            Study website: <a href="https://dsl-survey.gwusec.seas.gwu.edu">https://dsl-survey.gwusec.seas.gwu.edu</a>
+        </div>
+
+        <section id="overview">
+            <h2>Overview</h2>
+            <p>
+                This Privacy Policy applies to the Google Chrome Extension developed for the research project 
+                "Understanding User Perceptions of App Privacy and Data Safety Labels on the Google Play Store" 
+                conducted by the Security and Privacy Research Group (GWUSEC) at The George Washington University.
+            </p>
+            
+            <p>
+                The extension is designed solely to facilitate research participation. It assists participants in:
+            </p>
+            <ul>
+                <li>Exploring their Google Play Store app library</li>
+                <li>Reviewing their Google My Activity page</li>
+                <li>Selecting apps for the research survey</li>
+                <li>Retrieving Data Safety Labels for selected apps</li>
+            </ul>
+            
+            <p>
+                The extension operates in conjunction with the informed consent process approved by the 
+                George Washington University IRB. By installing or using this extension, you consent to 
+                the limited data practices described in this policy.
+            </p>
+        </section>
+
+        <section id="data-collection">
+            <h2>Collection of Your Information</h2>
+            
+            <div class="important">
+                <strong>Important:</strong> The extension itself does not automatically collect any personal information.
+            </div>
+
+            <h3>What We Collect</h3>
+            <p>During the study:</p>
+            <ul>
+                <li>Participants will be asked to review and optionally share three apps from their Google Play library</li>
+                <li>Only the metadata related to those three apps (app names and related Data Safety Labels) will be transmitted to the survey platform once you provide informed consent</li>
+                <li>Data Safety Labels are fetched from Google Play Store for the selected apps</li>
+            </ul>
+
+            <h3>What We Don't Collect</h3>
+            <ul>
+                <li>No other personal data, browsing history, or device information is collected</li>
+                <li>All personal data from My Activity and your broader Play Store history remain stored locally on your computer and are never transmitted to us</li>
+                <li>No personally identifiable information is collected through the extension</li>
+            </ul>
+
+            <p>
+                Demographic information (e.g., age, gender, race, field of work) is collected separately through 
+                the survey, not via the extension. This information is non-identifiable and anonymized.
+            </p>
+        </section>
+
+        <section>
+            <h2>Sharing Information with Third Parties</h2>
+            <ul>
+                <li>We do not sell, rent, or lease your information to third parties</li>
+                <li>Survey data is used exclusively for research purposes as described in the informed consent form</li>
+                <li>Data may be shared in aggregated or de-identified form for publication</li>
+                <li>Your identity will never be disclosed in any report or publication</li>
+            </ul>
+        </section>
+
+        <section id="security">
+            <h2>Security of Your Information</h2>
+            <p>We take appropriate steps to protect your information:</p>
+            <ul>
+                <li><strong>Encryption in Transit:</strong> Data transmitted from the extension to the survey site is encrypted</li>
+                <li><strong>Minimal Data Practices:</strong> We only collect the specific data you consent to share</li>
+                <li><strong>Local Storage:</strong> Most data remains on your device and is never transmitted</li>
+            </ul>
+            <p>
+                Despite these protections, no Internet transmission can be guaranteed 100% secure.
+            </p>
+        </section>
+
+        <section id="rights">
+            <h2>Your Rights</h2>
+            
+            <h3>California Consumer Privacy Act (CCPA/CPRA)</h3>
+            <p>If you are a California resident, you have the following rights:</p>
+            <ul>
+                <li><strong>Right to Know:</strong> You may request details on what personal data we collect, use, and share</li>
+                <li><strong>Right to Delete:</strong> You may request deletion of personal data, subject to legal exceptions</li>
+                <li><strong>Right to Correct:</strong> You may request corrections to inaccurate personal information</li>
+                <li><strong>Right to Opt-Out:</strong> You may opt out of the sale or sharing of personal data (note: we do not sell data)</li>
+                <li><strong>Right to Restrict Sensitive Data Use:</strong> You may limit the use of sensitive personal information</li>
+                <li><strong>Right Against Retaliation:</strong> We will not discriminate against you for exercising your rights</li>
+            </ul>
+
+            <h3>Rights to Deletion</h3>
+            <p>
+                Upon verified request, you may ask us to delete:
+            </p>
+            <ul>
+                <li>Survey data linked to your participation</li>
+                <li>Any metadata you voluntarily provided via the extension</li>
+            </ul>
+            <p>
+                Deletion may not apply if data has already been anonymized, aggregated, or published in a 
+                form that cannot reasonably identify you.
+            </p>
+            <p>
+                To exercise your rights, please contact the study team at <a href="mailto:aaviv@gwu.edu">aaviv@gwu.edu</a>.
+            </p>
+        </section>
+
+        <section>
+            <h2>Children Under Thirteen</h2>
+            <p>
+                This extension and study are not intended for children under 13. We do not knowingly 
+                collect any personal information from children.
+            </p>
+        </section>
+
+        <section>
+            <h2>Changes to this Statement</h2>
+            <p>
+                We may update this Policy from time to time (e.g., if study procedures or regulations change). 
+                Significant changes will be communicated through the survey website.
+            </p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <div class="contact-box">
+                <p>If you have questions about this Policy or your data, please contact:</p>
+                
+                <p><strong>Principal Investigator</strong><br>
+                Adam Aviv, PhD<br>
+                Email: <a href="mailto:aaviv@gwu.edu">aaviv@gwu.edu</a><br>
+                Phone: (202) 994-6569</p>
+                
+                <p><strong>The George Washington University</strong><br>
+                GWUSEC – Security and Privacy Research Group<br>
+                800 22nd Street NW, SEH 4390<br>
+                Washington, DC 20052</p>
+                
+                <p style="margin-top: 1rem;">
+                    This research has been reviewed according to the George Washington University IRB 
+                    procedures for research involving human subjects.
+                </p>
+            </div>
+        </section>
+
+        <div class="footer">
+            <p>Effective as of: September 5, 2025</p>
+            <p>Last Updated: September 5, 2025</p>
+            <p style="margin-top: 1rem;">
+                © 2025 GWUSEC - The George Washington University | 
+                <a href="https://gwusec.seas.gwu.edu">GWUSEC Lab</a> | 
+                <a href="https://www.gwu.edu">GWU Home</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
